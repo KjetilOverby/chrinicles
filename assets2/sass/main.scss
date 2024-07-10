@@ -448,6 +448,7 @@
 		opacity: 0;
 		width: 1em;
 		z-index: -1;
+	
 
 		& + label {
 			@include icon(false, solid);
@@ -475,6 +476,7 @@
 				width: (_size(element-height) * 0.75);
 			}
 		}
+	
 
 		&:checked + label {
 			&:before {
